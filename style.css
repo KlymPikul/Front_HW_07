@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #34495E;
+}
+
+.wrapper {
+    max-width: 1296px;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 28px 0 48px 0;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation ul :hover {
+    cursor: pointer;
+}
+
+.navigation ul {
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.9px;
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+}
+
+.button button {
+    background-color: #018ABE;
+    border-radius: 3px;
+    border: solid 1px #018ABE;
+    height: 36px;
+    width: 161px;
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+.aquatherapy {
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.description-aquatherapy {
+    top: 25%;
+    right: 25%;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    line-height: 89.6px;
+    font-family: El Messiri, serif;
+}
+
+.description-aquatherapy h6 {
+    font-size: 24px;
+}
+
+.description-aquatherapy h2 {
+    font-size: 64px;
+    width: 587px;
+}
+
+.seances {
+    margin-bottom: 150px;
+}
+
+.seances h2 {
+    justify-content: center;
+    display: flex;
+    font-family: El Messiri, serif;
+    font-size: 42px;
+    margin-bottom: 100px;
+}
+
+.blocks {
+    display: flex;
+    gap: 24px;
+    font-family: El Messiri, serif;
+    font-size: 24px;
+    line-height: 33.6px;
+}
+
+.contents {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    right: 45%;
+    bottom: 15%;
+}
+
+.contents :hover {
+    cursor: pointer;
+}
+
+.text-long {
+    position: absolute;
+    right: 32%;
+    bottom: 15%;
+    width: 252px;
+}
+
+.ritmStyle {
+    margin-bottom: 150px;
+}
+
+.ritmStyle h2 {
+    justify-content: center;
+    display: flex;
+    padding-bottom: 100px;
+    font-size: 42px;
+}
+
+.block {
+    display: flex;
+    font-family: ABeeZee, serif;
+    font-style: italic;
+    line-height: 22.4px;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.text-block {
+    width: 561.28px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-block h3 {
+    font-size: 24px;
+}
+
+.text-block p {
+    font-size: 16px;
+}
+
+.costs {
+    margin-bottom: 150px;
+}
+
+.costs h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    font-size: 42px;
+    line-height: 58.8px;
+    font-family: El Messiri, serif;
+}
+
+.costs-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description-cost {
+    row-gap: 31px;
+    display: flex;
+    flex-direction: column;
+}
+
+.description-cost ul {
+    gap: 31px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 25.2px;
+    font-family: ABeeZee, serif;
+    font-style: normal;
+    list-style-type: none;
+}
+
+.news {
+    margin-bottom: 150px;
+}
+
+.news-block {
+    display: flex;
+    gap: 24px;
+}
+
+.news h2 {
+    font-family: El Messiri, serif;
+    font-size: 42px;
+    line-height: 58.8px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.first-inscription {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px #34495E;
+    background-color: #34495E;
+    top: 20%;
+    left: 8%;
+}
+
+.first-inscription h4 {
+    justify-content: center;
+    display: flex;
+    font-family: ABeeZee, serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 18.9px;
+    padding: 5px 0;
+}
+
+.second-inscription {
+    position: relative;
+    font-size: 21px;
+    line-height: 29.4px;
+    font-weight: 700;
+    bottom: 20%;
+    left: 8%;
+}
+
+.location {
+    display: flex;
+    gap: 48px;
+    margin-bottom: 183px;
+}
+
+.contact-information {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.address {
+    width: 347px;
+    background-color: #018ABE;
+    border-radius: 10px;
+    border: 1px solid #018ABE;
+    padding: 35px 0 35px 45px;
+}
+
+.address h2 {
+    padding-bottom: 20px;
+}
+
+.button :hover {
+    cursor: pointer;
+    background: azure;
+}
+
+.button button{
+    font-family: ABeeZee, serif;
+    line-height: 18.2px;
+    font-size: 13px;
+    font-style: italic;
+    background-color: #FFFFFF;
+    color: #018ABE;
+    border-radius: 3px;
+    border: 1px solid #FFFFFF;
+    padding: 9px 15px 9px 15px;
+}
+
+.additional {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.additional a {
+    text-decoration: none;
+    color: white;
+}
+
+.variants {
+    display: flex;
+}
+
+.variants::before {
+    content: "";
+    background-image: url('./pictures/point.png');
+    width: 22px;
+    height: 9px;
+    margin: 4px 24px;
+}
+
+.variants > :first-child {
+    margin-right: 55px;
+    width: 322px;
+}
